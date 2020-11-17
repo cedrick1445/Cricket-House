@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.schedule.ScheduleFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:nestedScrollingEnabled="true"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="parent">
+
+
+
+        <com.github.islamkhsh.CardSliderViewPager
+            android:id="@+id/scheduleRecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="true"
+            app:cardCornerRadius="25dp"
+            app:cardSlider_otherPagesWidth="40dp"
+            app:cardSlider_pageMargin="8dp"
+            app:cardSlider_smallScaleFactor="1" />
+
+
+    </LinearLayout>
+
+
+    <!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:paddingTop="18dp"-->
+<!--        android:paddingBottom="18dp"-->
+<!--        android:id="@+id/scheduleRecycleView"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/text_notifications"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <androidx.viewpager2.widget.ViewPager2-->
+<!--        android:id="@+id/viewPager"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="330dp"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:clipToPadding="false"-->
+<!--        android:overScrollMode="never"-->
+<!--        android:paddingBottom="30dp"-->
+<!--        android:paddingEnd="10dp"-->
+<!--        android:paddingLeft="10dp"-->
+<!--        android:paddingRight="10dp"-->
+<!--        android:paddingStart="10dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CricketHouse</string>
+    <string name="title_home">Home</string>
+    <string name="title_equipments">Equipments</string>
+    <string name="title_team">Team</string>
+
+    <string name="title_schedule">Schedule</string>
+</resources>
